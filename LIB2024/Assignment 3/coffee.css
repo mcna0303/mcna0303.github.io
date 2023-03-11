@@ -1,0 +1,44 @@
+.header{
+	text-align: center;
+	font-family: "Georgia", sans-serif;
+	border-bottom: 5px solid #9CAF88;
+}
+
+body{
+	background-color: beige;
+}
+
+.left-side {
+  float: left;
+  width: 25%;
+  padding: 1%;
+  border-bottom: 5px solid #9CAF88;
+}
+
+.right-side {
+  float: right;
+  width: 25%;
+  padding: 1%;
+  border-bottom: 5px solid #9CAF88;
+}
+
+.content, header {
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Georgia", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.beans{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
