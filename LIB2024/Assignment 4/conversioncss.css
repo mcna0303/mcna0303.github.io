@@ -1,0 +1,14 @@
+body{
+	background: lightblue;
+}
+
+.title{
+	text-align: center;
+	border-bottom: dashed black;
+	font-family: "Georgia" sans-serif;
+}
+
+.converter{
+	display: inline-block;
+	margin-left: 38%;
+}

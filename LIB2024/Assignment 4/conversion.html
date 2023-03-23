@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang="en">
+ 	  <meta name="description" content="converting temperatures">
+  	<meta name="keywords" content="HTML, CSS, JavaScript, fahrenheit, celsius">
+  	<meta name="author" content="Katrina McNabb">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting Temperatures</title>
+	<link rel="icon" type="image/x-icon" href="https://i.ibb.co/8Nms4Yq/Thermometer-icon.png">
+	<link rel="stylesheet" href="conversioncss.css" type="text/css">
+	<script type="text/javascript" src="conversionjs.js"></script>
+
+</head>
+
+<body>
+
+<div class="title">
+
+	<h1>Temperature Converter</h1>
+
+</div>
+
+<div class="converter">
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+
+</div>
+
+<div class="image">
+	<img src="https://i.ibb.co/8Nms4Yq/Thermometer-icon.png" alt="Thermometer-icon" border="0">
+</div>
+
+</body>
