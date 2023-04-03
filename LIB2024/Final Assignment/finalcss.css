@@ -1,4 +1,4 @@
-.header{
+.title{
 	text-align: center;
 	font-family: "Georgia" sans-serif;
 }
@@ -7,11 +7,100 @@ body{
 	background-color: beige;
 }
 
-.intro{
-	text-align: center;
-	font-family: "Georgia" sans-serif;
-	position: absolute;
-	margin-top: 150px;
+p {
+    text-align: left;
+    font-family: "Georgia" sans-serif;
+    font-size: 16px;
+}
+
+nav {
+  margin: 27px auto 0;
+
+  position: relative;
+  width: 590px;
+  height: 50px;
+  background-color: #ffb6c1;
+  border-radius: 8px;
+  font-size: 0;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 100px;
+}
+a:nth-child(2) {
+  width: 110px;
+}
+a:nth-child(3) {
+  width: 100px;
+}
+a:nth-child(4) {
+  width: 160px;
+}
+a:nth-child(5) {
+  width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 100px;
+  left: 0;
+  background-color: #808080;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 110px;
+  left: 100px;
+  background-color: #808080;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 100px;
+  left: 210px;
+  background-color: #808080;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 160px;
+  left: 310px;
+  background-color: #808080;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 120px;
+  left: 470px;
+  background-color: #808080;
+}
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #black;
+  font-family: "Georgia" sans-serif;
+}
+
+span {
+    color: #2BD6B4;
 }
 
 body {
@@ -19,13 +108,14 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .container {
     height: 200px;
     width: 350px;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 15%;
+    top: 30%;
 }
 .cat {
     background-color: #5A5A5A;
@@ -179,56 +269,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 275px;
+	margin-top: 175px;
 	width: 100%;
 }
 
-.about_link{
-	text-align: center;
-	font-family: "Georgia" sans-serif;
-}
 
-.paragraph{
-	text-align: center;
-	font-family: "Georgia" sans-serif;
-}
-
-.left-side {
-  float: left;
-  width: 25%;
-  padding: 1%;
-  border-bottom: 5px solid #601A35;
-}
-
-.right-side {
-  float: right;
-  width: 25%;
-  padding: 1%;
-  border-bottom: 5px solid #601A35;
-}
-
-.content, header {
-  width: 75%;
-  margin: 0 auto;
-  font-family: "Georgia", sans-serif;
-}
-
-.more_header{
-	text-align: center;
-	font-family: "Georgia" sans-serif;
-	border-bottom: 5px solid #601A35;
-
-}
-
-.back_link{
-font-family: "Georgia" sans-serif;
-
-}
-.about_OHS{
-	font-family: "Georgia" sans-serif;
-}
-
-.OHS_link{
-    text-align: center;
-    font-family: "Georgia" sans-serif;
-}
