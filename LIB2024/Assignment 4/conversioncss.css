@@ -2,13 +2,19 @@ body{
 	background: lightblue;
 }
 
+/*This css is just to change the colour of the background */
+
 .title{
 	text-align: center;
 	border-bottom: dashed black;
-	font-family: "Georgia" sans-serif;
+	font-family:"Georgia" sans-serif;
 }
+
+/*This css is the element for my title. I used it to change the font, add the border, and align the text. */
 
 .converter{
 	display: inline-block;
 	margin-left: 38%;
 }
+
+/*The converter class from my HTML allowed me to change the position of the converter and change it to an inline block */
